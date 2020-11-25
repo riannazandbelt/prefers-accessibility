@@ -63,22 +63,23 @@ html {
 
 /* stylelint-disable media-feature-name-no-unknown */
 
-
 @media (prefers-reduced-motion) {
 
   .gear {
-  animation: none;
+    animation: none;
   }
+
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
 
   body {
-  background-color: #222;
+    background-color: #222;
   }
 
   .banner {
-  opacity: .5;
+    opacity: .5;
   }
+
 }
 /* stylelint-enable */
